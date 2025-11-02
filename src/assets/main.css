@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "RocGrotesk";
+    src: url("./fonts/Roc Grotesk Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "DBSans";
+    src: url("./fonts/DBSans.woff2") format("woff2");
+}
+
+@theme {
+    --font-main: "RocGrotesk";
+    --font-sub: "DBSans";
+}
